@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>질문 목록</title>
+</head>
+<body>
+    <h1>질문 목록!!</h1>
+    <div th:each="question : ${questions}">
+        <a th:href="@{|/question/detail/${question.id}}">[[${question.subject}]]</a>
+    </div>
+</body>
+</html>

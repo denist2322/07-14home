@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
+<link rel="stylesheet" type="text/css" th:href="@{/style.css}">
 <head>
   <meta charset="UTF-8">
     <title>제목</title>
@@ -11,5 +12,19 @@
   <div>
     [[${question.content}]]
   </div>
+<hr>
+  <h5>[[${#lists.size(question.answerList)}]]개의 답변이 있습니다.</h5>
+  <div>
+    <ul>
+      <li th:each="answer : ${question.answerList}">[[${answer.content}]]</li>
+    </ul>
+  </div>
+
+  <h2>답변 작성</h2>
+<form th:action="@{|/answer/create/${question.id}|}" method="post">
+  <textarea name="content" id="content" cols="30" rows="10" placeholder="내용을 입력해주세요."></textarea>
+  <input type="submit" value="답변등록">
+</form>
+
 </body>
 </html>

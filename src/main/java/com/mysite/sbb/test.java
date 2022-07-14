@@ -5,12 +5,17 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
-@RequestMapping("/sbb")
+@RequestMapping("/")
 public class test {
 
-    @RequestMapping("")
+    @RequestMapping("test")
     @ResponseBody
-    public String showMain(){
+    public String showTest(){
         return "안녕하세";
+    }
+
+    @RequestMapping("/")
+    public String showMain(){
+        return "redirect:/question/list";
     }
 }

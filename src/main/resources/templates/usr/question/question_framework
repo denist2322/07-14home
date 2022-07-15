@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" xmlns:th="http://www.thymeleaf.org"
+      layout:decorate="~{common/layout}">
+<head>
+    <meta charset="UTF-8">
+    <title>홈페이지 이름</title>
+</head>
+<body>
+<div layout:fragment="content" class="container my-3">
+    내용 입력
+</div>
+</body>
+</html>

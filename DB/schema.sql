@@ -29,6 +29,327 @@ create_date = NOW(),
 content = '질문내용 3',
 answer_id = 3;
 
+INSERT INTO Question SET
+create_date = NOW(),
+`subject` = '테스트',
+content = '테스트',
+answer_id = 3;
+
+INSERT INTO Question SET
+create_date = NOW(),
+`subject` = '테스트',
+content = '테스트',
+answer_id = 3;
+
+
+INSERT INTO Question SET
+create_date = NOW(),
+`subject` = '테스트',
+content = '테스트',
+answer_id = 3;
+
+
+INSERT INTO Question SET
+create_date = NOW(),
+`subject` = '테스트',
+content = '테스트',
+answer_id = 3;
+
+
+INSERT INTO Question SET
+create_date = NOW(),
+`subject` = '테스트',
+content = '테스트',
+answer_id = 3;
+
+
+INSERT INTO Question SET
+create_date = NOW(),
+`subject` = '테스트',
+content = '테스트',
+answer_id = 3;
+
+
+INSERT INTO Question SET
+create_date = NOW(),
+`subject` = '테스트',
+content = '테스트',
+answer_id = 3;
+
+
+INSERT INTO Question SET
+create_date = NOW(),
+`subject` = '테스트',
+content = '테스트',
+answer_id = 3;
+
+
+INSERT INTO Question SET
+create_date = NOW(),
+`subject` = '테스트',
+content = '테스트',
+answer_id = 3;
+
+
+INSERT INTO Question SET
+create_date = NOW(),
+`subject` = '테스트',
+content = '테스트',
+answer_id = 3;
+
+
+INSERT INTO Question SET
+create_date = NOW(),
+`subject` = '테스트',
+content = '테스트',
+answer_id = 3;
+
+
+INSERT INTO Question SET
+create_date = NOW(),
+`subject` = '테스트',
+content = '테스트',
+answer_id = 3;
+
+
+INSERT INTO Question SET
+create_date = NOW(),
+`subject` = '테스트',
+content = '테스트',
+answer_id = 3;
+
+
+INSERT INTO Question SET
+create_date = NOW(),
+`subject` = '테스트',
+content = '테스트',
+answer_id = 3;
+
+
+INSERT INTO Question SET
+create_date = NOW(),
+`subject` = '테스트',
+content = '테스트',
+answer_id = 3;
+
+
+INSERT INTO Question SET
+create_date = NOW(),
+`subject` = '테스트',
+content = '테스트',
+answer_id = 3;
+
+
+INSERT INTO Question SET
+create_date = NOW(),
+`subject` = '테스트',
+content = '테스트',
+answer_id = 3;
+
+
+INSERT INTO Question SET
+create_date = NOW(),
+`subject` = '테스트',
+content = '테스트',
+answer_id = 3;
+
+
+INSERT INTO Question SET
+create_date = NOW(),
+`subject` = '테스트',
+content = '테스트',
+answer_id = 3;
+
+
+INSERT INTO Question SET
+create_date = NOW(),
+`subject` = '테스트',
+content = '테스트',
+answer_id = 3;
+
+
+INSERT INTO Question SET
+create_date = NOW(),
+`subject` = '테스트',
+content = '테스트',
+answer_id = 3;
+
+
+INSERT INTO Question SET
+create_date = NOW(),
+`subject` = '테스트',
+content = '테스트',
+answer_id = 3;
+
+
+INSERT INTO Question SET
+create_date = NOW(),
+`subject` = '테스트',
+content = '테스트',
+answer_id = 3;
+
+
+INSERT INTO Question SET
+create_date = NOW(),
+`subject` = '테스트',
+content = '테스트',
+answer_id = 3;
+
+
+INSERT INTO Question SET
+create_date = NOW(),
+`subject` = '테스트',
+content = '테스트',
+answer_id = 3;
+
+
+INSERT INTO Question SET
+create_date = NOW(),
+`subject` = '테스트',
+content = '테스트',
+answer_id = 3;
+
+
+INSERT INTO Question SET
+create_date = NOW(),
+`subject` = '테스트',
+content = '테스트',
+answer_id = 3;
+
+
+INSERT INTO Question SET
+create_date = NOW(),
+`subject` = '테스트',
+content = '테스트',
+answer_id = 3;
+
+
+INSERT INTO Question SET
+create_date = NOW(),
+`subject` = '테스트',
+content = '테스트',
+answer_id = 3;
+
+
+INSERT INTO Question SET
+create_date = NOW(),
+`subject` = '테스트',
+content = '테스트',
+answer_id = 3;
+
+
+INSERT INTO Question SET
+create_date = NOW(),
+`subject` = '테스트',
+content = '테스트',
+answer_id = 3;
+
+
+INSERT INTO Question SET
+create_date = NOW(),
+`subject` = '테스트',
+content = '테스트',
+answer_id = 3;
+
+
+INSERT INTO Question SET
+create_date = NOW(),
+`subject` = '테스트',
+content = '테스트',
+answer_id = 3;
+
+
+INSERT INTO Question SET
+create_date = NOW(),
+`subject` = '테스트',
+content = '테스트',
+answer_id = 3;
+
+
+INSERT INTO Question SET
+create_date = NOW(),
+`subject` = '테스트',
+content = '테스트',
+answer_id = 3;
+
+
+INSERT INTO Question SET
+create_date = NOW(),
+`subject` = '테스트',
+content = '테스트',
+answer_id = 3;
+
+
+INSERT INTO Question SET
+create_date = NOW(),
+`subject` = '테스트',
+content = '테스트',
+answer_id = 3;
+
+
+INSERT INTO Question SET
+create_date = NOW(),
+`subject` = '테스트',
+content = '테스트',
+answer_id = 3;
+
+
+INSERT INTO Question SET
+create_date = NOW(),
+`subject` = '테스트',
+content = '테스트',
+answer_id = 3;
+
+
+INSERT INTO Question SET
+create_date = NOW(),
+`subject` = '테스트',
+content = '테스트',
+answer_id = 3;
+
+
+INSERT INTO Question SET
+create_date = NOW(),
+`subject` = '테스트',
+content = '테스트',
+answer_id = 3;
+
+
+INSERT INTO Question SET
+create_date = NOW(),
+`subject` = '테스트',
+content = '테스트',
+answer_id = 3;
+
+
+INSERT INTO Question SET
+create_date = NOW(),
+`subject` = '테스트',
+content = '테스트',
+answer_id = 3;
+
+
+INSERT INTO Question SET
+create_date = NOW(),
+`subject` = '테스트',
+content = '테스트',
+answer_id = 3;
+
+
+INSERT INTO Question SET
+create_date = NOW(),
+`subject` = '테스트',
+content = '테스트',
+answer_id = 3;
+
+
+INSERT INTO Question SET
+create_date = NOW(),
+`subject` = '테스트',
+content = '테스트',
+answer_id = 3;
+
+
 CREATE TABLE Answer (
     id INT(11) UNSIGNED NOT NULL PRIMARY KEY AUTO_INCREMENT,
     content TEXT NOT NULL,

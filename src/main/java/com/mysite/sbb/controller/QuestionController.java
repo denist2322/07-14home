@@ -6,13 +6,13 @@ import com.mysite.sbb.domain.Question;
 import com.mysite.sbb.domain.QuestionForm;
 import com.mysite.sbb.service.QuestionService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
-import java.util.List;
 
 @Controller
 @RequestMapping("/question")
@@ -23,9 +23,9 @@ public class QuestionController {
     private QuestionService questionService;
 
     @RequestMapping("list")
-    public String showList(Model model) {
-        List<Question> questions = questionService.getList();
-        model.addAttribute("questions", questions);
+    public String showList(Model model, @RequestParam(value="page", defaultValue = "0") int page) {
+        Page<Question> paging = questionService.getList(page);
+        model.addAttribute("paging", paging);
         return "usr/question/question_list";
     }
 

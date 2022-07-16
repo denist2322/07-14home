@@ -23,3 +23,11 @@ textarea{
 input[type=submit]{
     margin-top:10px;
 }
+
+.no-underline{
+    text-decoration: none;
+}
+
+h1 > a{
+    color:black;
+}

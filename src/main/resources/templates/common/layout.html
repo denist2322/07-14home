@@ -10,9 +10,13 @@
   <title layout:title-pattern="$LAYOUT_TITLE | $CONTENT_TITLE">게시판</title>
 </head>
 <body>
-<h1><a href="/" class="no-underline">게시판</a></h1>
+<!-- 네비게이션 바 -->
+<nav th:replace="common/navbar:: navbarFragment"></nav>
+
 <!-- 기본 템플릿 안에 삽입될 내용 Start -->
 <th:block layout:fragment="content"></th:block>
 <!-- 기본 템플릿 안에 삽입될 내용 End -->
+<!-- 부트스트랩 Js -->
+<script th:src="@{/bootstrap.min.js}"></script>
 </body>
 </html>

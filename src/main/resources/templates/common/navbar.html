@@ -8,6 +8,9 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
+<!--               sec:authorize는 권한에 따른 조건문으로 권한 if문으로 생각하자     -->
+<!--               isAnonymous()는 익명의 사용자 즉, 로그인이 되지 않았다면 로그인 표시를 한다.-->
+<!--               isAuthenticated()는 인증된 사용자 즉, 로그인이 되어 있다면 로그아웃을 표시한다.-->
                     <a class="nav-link" sec:authorize="isAnonymous()" th:href="@{/user/login}">로그인</a>
                     <a class="nav-link" sec:authorize="isAuthenticated()" th:href="@{/user/logout}">로그아웃</a>
                 </li>

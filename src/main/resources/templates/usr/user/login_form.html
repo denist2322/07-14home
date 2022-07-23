@@ -8,6 +8,9 @@
 <body>
 <div layout:fragment="content" class="container my-3">
     <form th:action="@{/user/login}" method="post">
+<!--    AuthenticationManager 부분에서 던저진 에러를 여기서 처리한다.    -->
+<!--    AuthenticationManager 는 UserSecurityService에서 사용자가 일치하지 않는 에러 혹은 -->
+<!--    PasswordEncoder에서 비밀번호가 일치하지 않는 에러를 여기로 던진다    -->
         <div th:if="${param.error}">
             <div class="alert alert-danger">
                 사용자ID 또는 비밀번호를 확인해 주세요.

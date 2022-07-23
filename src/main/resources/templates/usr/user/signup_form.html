@@ -12,10 +12,17 @@
             <h4>회원가입</h4>
         </div>
     </div>
+<!--    input이 submit인 부분을 누르게 되면 h:action행동을 취하게 된다.-->
+<!--    post는 생성을 의미한다.-->
+<!--    POST : 생성 | GET : 조회 | PATCH : 수정 | DEL : 삭제 -->
     <form th:action="@{/user/signup}" th:object="${userCreateForm}" method="post">
         <div th:replace="common/form_errors :: formErrorsFragment"></div>
         <div class="mb-3">
             <label for="username" class="form-label">사용자ID</label>
+<!--            *{}은 선택자 이다. -->
+<!--            참고로 th:field="*{username}"가 아닌 name="username" id="username" 로 작성해도 된다.-->
+<!--            회원가입 폼은 th:field="*{username}"를 사용했지만 login 폼에서는 name="username" id="username" 를 사용했다 -->
+<!--            둘의 차이점은 없다.-->
             <input type="text" th:field="*{username}" class="form-control">
         </div>
         <div class="mb-3">
